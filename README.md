@@ -164,7 +164,7 @@ Model created directly from the provided dimensional specifications (module, too
 
 Download these files below
 
-[Download Flanged Elbow.zip](./Flanged%20Elbow.zip)
+[Download Compound Spur Gear.zip](./Compound%20Spur%20Gear.zip)
 
 
 ## Manufacturing Considerations
