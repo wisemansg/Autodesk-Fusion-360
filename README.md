@@ -96,18 +96,4 @@ Future improvements may include:
 
 ---
 
-## File Structure (Recommended)
 
-```
-ProjectName/
- ├── README.md
- ├── renders/
- ├── cad/
- ├── docs/
- └── analysis/
-```
-
----
-
-## License
-(Optional depending on IP preference)
