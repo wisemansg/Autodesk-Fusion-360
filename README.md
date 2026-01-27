@@ -376,3 +376,112 @@ Common materials:
 - Automotive & motorcycle suspension links
 - Exercise equipment adjustment mechanisms
 
+---
+
+# L-Bracket with Shoulder Bolt & Washer — Fusion 360 CAD Model
+
+## Overview
+This project contains a complete parametric model of a reinforced **L-shaped mounting bracket** (angle bracket / corner bracket) together with a matching **shoulder bolt** (stripper bolt / shoulder screw) and a thick **washer/spacer**.
+
+The assembly demonstrates:
+- A robust 90° bracket with rounded external corners and internal fillets
+- Counterbored mounting holes for flush or semi-flush fastening
+- Central clearance/alignment bore Ø30 mm
+- Matching high-strength shoulder screw with hex socket drive
+- Thick locating washer to act as a standoff or bearing surface
+
+Typical use case: structural connection in machine frames, fixtures, jigs, automation equipment, robotic cells, or any application requiring a strong right-angle joint with precise alignment.
+
+## Design Specifications
+All dimensions in **millimeters (mm)**
+
+### L-Bracket (Green part)
+| Feature                        | Value                  | Notes                                      |
+|--------------------------------|------------------------|--------------------------------------------|
+| Overall base size              | 80 × 80 mm             | Outer envelope (square)                    |
+| Wall / flange thickness        | 10 mm                  | Both legs                                  |
+| External corner radii          | R15 mm & R5 mm         | Two-stage rounding                         |
+| Internal fillet radius         | R15 mm                 | Stress relief at inside corner             |
+| Mounting hole diameter         | Ø15 mm                 | Two holes per leg                          |
+| Mounting hole spacing (center) | 35 mm (horizontal)     | From inside corner                         |
+| Central clearance bore         | Ø30 mm                 | Through both legs                          |
+| Base chamfer / edge break      | ~1–2 mm (implied)      | All external edges                         |
+
+### Washer / Spacer (Red part)
+| Feature                        | Value                  | Notes                                      |
+|--------------------------------|------------------------|--------------------------------------------|
+| Outer shape                    | Square with chamfered corners | 90 × 90 mm overall                       |
+| Thickness                      | 10 mm                  | Thick standoff / bearing face              |
+| Central bore                   | Ø30 mm                 | Matches bracket bore                       |
+| Outer corner radii             | R10 mm                 | All four corners                           |
+| Edge chamfer                   | 2 mm × 45° (implied)   | Top and bottom perimeter                   |
+
+### Shoulder Bolt (Silver parts)
+| Feature                        | Value                  | Notes                                      |
+|--------------------------------|------------------------|--------------------------------------------|
+| Thread diameter                | M10 (implied)          | Coarse thread assumed                      |
+| Shoulder diameter              | Ø15 mm                 | Precision locating diameter                |
+| Shoulder length                | 30 mm                  | Functional grip length                     |
+| Head diameter                  | Ø25 mm                 | Flanged socket head                        |
+| Head thickness                 | 5 mm                   | Low-profile                                |
+| Drive                          | Hex socket (Allen)     | 6 mm hex key                               |
+| Thread length                  | ~20–25 mm (visible)    | Partial thread                             |
+
+## Tools & Commands Demonstrated
+- 2D sketching: Rectangle, Circle, Arc, Fillet, Offset, Mirror
+- Extrude (symmetric & one-direction)
+- Hole → Simple + Counterbore
+- Chamfer / Fillet (multiple radii)
+- Revolve (for shoulder bolt)
+- Circular Pattern (optional for head hex)
+- Assembly → Joints / As-built joints (concentric + planar)
+- Appearance / Physical material assignment
+
+## Design Features
+- Symmetrical L-shape with equal legs
+- Generous internal and external fillets → improved strength & aesthetics
+- Precision Ø15 mm shoulder interface for accurate positioning
+- Large Ø30 mm central clearance for shaft, sensor, or cable pass-through
+- Thick washer doubles as protective spacer and load distributor
+- Hex socket cap head for clean appearance and high torque capability
+
+   ## Models
+
+![Drawing View](T0.jpeg)
+![Drawing View](T00.jpeg)
+![Drawing View](T1.png)
+![Drawing View](T2.png)
+![Drawing View](T3.png)
+
+---
+
+## CAD Downloads
+
+- Fusion 360 (`L-Bracket.f3d`)
+- Fusion 360 (`L-Bracket_.ipt`)
+- STEP (`L-Bracket_.step`)
+- STL (`L-Bracket.stl`)
+- DWG (`L-Bracket_.dwg`)
+
+Download these files below
+
+[Download L-Bracket.zip](./L-Bracket.zip)
+
+## Manufacturing Considerations
+Recommended processes:
+- **Bracket & Washer**  
+  - CNC milling from aluminum plate (6061-T6 or 7075)  
+  - Laser/plasma/waterjet + light machining  
+  - Steel versions: flame-cut + machining  
+- **Shoulder Bolt**  
+  - Standard catalog part (DIN 923 / ISO 7379 style)  
+  - Custom CNC turning + thread rolling
+
+## Typical Applications
+- Machine base & frame corner connections
+- Fixture & jig mounting
+- Automation / robotic cell structural joints
+- Sensor or actuator mounting brackets
+- Workholding systems
+- Prototype machinery sub-assemblies
+
