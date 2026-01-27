@@ -52,7 +52,7 @@ Model was created based on the following 2D documentation:
 
 ## CAD Downloads
 > _(Place files inside the `cad/` folder for download)_
-- Fusion 360 (`.f3d`)
+- Fusion 360 (`Flanged Elbow.f3d`)
 - Fusion 360 (`Flanged Elbow_.ipt`)
 - STEP (`Flanged Elbow_.step`)
 - STL (`Flanged Elbow.stl`)
