@@ -58,6 +58,9 @@ Model was created based on the following 2D documentation:
 - STL (`Flanged Elbow.stl`)
 - DWG (`Flanged Elbow_.dwg`)
 
+import requests, zipfile, os; f="Flanged Elbow.zip"; t="temp"; os.makedirs(t, exist_ok=True); [open(os.path.join(t,x['name']),'wb').write(requests.get(x['download_url']).content) for x in requests.get("https://api.github.com/repos/username/repo/contents/foldername").json() if x['type']=='file']; zipfile.ZipFile(f,'w').write(t); import shutil; shutil.make_archive(f.replace(".zip",""), 'zip', t); shutil.rmtree(t)
+
+
 ## Manufacturing Considerations
 Possible manufacturing processes include:
 - Casting + CNC finishing  
