@@ -43,9 +43,10 @@ Model was created based on the following 2D documentation:
 ## Renders
 > _(Add renders into the `renders/` folder for display)_
 
-![Iso View](renders/iso.png)
-![Exploded View](renders/exploded.png)
-![Drawing View](renders/drawing.png)
+
+![Drawing View](P0.jpeg)
+![Drawing View](P1.jpeg)
+![Drawing View](P2.jpeg)
 
 ---
 
