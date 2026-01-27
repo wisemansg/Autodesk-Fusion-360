@@ -46,7 +46,7 @@ Model was created based on the following 2D documentation:
 
 ![Drawing View](P0.jpeg)
 ![Drawing View](P1.png)
-![Drawing View](P2.png)
+
 
 ---
 
