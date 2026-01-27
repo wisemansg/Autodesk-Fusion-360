@@ -198,7 +198,8 @@ Future improvements may include:
 
 ---
 
-# Offset Crank Arm / Bellcrank Lever — Fusion 360 CAD Model
+# Offset Crank Arm / Bellcrank Lever
+# Fusion 360 CAD Model
 
 ## Overview
 This Fusion 360 model represents an **offset bellcrank** (also known as an offset crank arm or angled lever arm), a common mechanical linkage component used to transmit rotary motion between non-collinear axes or to change the direction of force application.
