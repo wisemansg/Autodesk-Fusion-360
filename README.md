@@ -26,7 +26,7 @@ Replicate a flanged elbow pipe component from a provided 2D technical drawing wh
 - Two bolt flanges for modular connection  
 - Smooth internal bend for continuous flow  
 - Standard circular hole pattern  
-- Chamfered geometry for machinability and safety  
+- Chamfered geometry for machinability and safety   
 
 ---
 
