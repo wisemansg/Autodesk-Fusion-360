@@ -196,7 +196,95 @@ Future improvements may include:
 - Assembly with mating pinion and shaft
 - Bill of Materials (BOM)
 
+---
+
+# Offset Crank Arm / Bellcrank Lever — Fusion 360 CAD Model
+
+## Overview
+This Fusion 360 model represents an **offset bellcrank** (also known as an offset crank arm or angled lever arm), a common mechanical linkage component used to transmit rotary motion between non-collinear axes or to change the direction of force application.
+
+The part features two large bearing/journal interfaces connected by a curved, reinforced web with generous fillets and smooth transitions, making it suitable for moderate-load pivoting or actuating mechanisms.
+
+## Objective
+Accurately recreate the geometry from the provided technical sketch using only 2D sketching, arcs, tangency constraints, extrusion, symmetry, and fillets — while preserving all critical dimensions and manufacturing-friendly features.
+
+## Design Specifications
+All dimensions in **millimeters (mm)**
+
+| Feature                          | Dimension          | Notes                              |
+|----------------------------------|--------------------|------------------------------------|
+| Large boss / bearing OD          | Ø50                | One end (thicker section)          |
+| Large boss / bearing ID          | Ø30                | Through bore                       |
+| Small boss / pivot OD            | Ø30                | Opposite end                       |
+| Small boss / pivot ID            | — (implied solid)  | May be modified for shaft/keyway   |
+| Center distance (between bores)  | 125                | Along arc path                     |
+| Web / arm thickness              | 10                 | Constant thickness extrusion       |
+| Offset / arm width at large end  | 80                 | Total width                        |
+| Offset / arm width at small end  | 50                 | Total width                        |
+| Curved outer radius (main bend)  | R50                | Outer profile                      |
+| Inner relief radius              | R40                | Near small boss                    |
+| Transition fillet (small end)    | R25                | Stress relief                      |
+| Straight section length (large)  | 40                 | Before curve                       |
+| Straight section length (small)  | 15                 | After curve                        |
+| Total length (approx.)           | ~165–170           | Along centerline                   |
+
+## Tools & Commands Demonstrated
+- Sketch → Line, Arc (3-point & tangent), Circle
+- Sketch constraints → Tangent, Coincident, Horizontal/Vertical, Dimension
+- Mirror / Symmetry (for symmetrical web)
+- Extrude (symmetric & one-direction)
+- Fillet (variable radius: R25, R40, R50 regions)
+- Inspect → Measure (validation of center distance & radii)
+
+## Design Features
+- Symmetrical web about the mid-plane
+- Smooth tangent arc transitions → reduced stress concentration
+- Generously filleted junctions → improved fatigue resistance
+- Through-bore on large end (Ø30) suitable for bearing or bushing
+- Thicker large-diameter boss → higher load capacity at that interface
+- Offset geometry allowing compact linkage routing
+
+ ## Models
+
+![Drawing View](C0.png)
+![Drawing View](C1.png)
+![Drawing View](C2.png)
+![Drawing View](C3.png)
+
+---
+
+## CAD Downloads
+
+- Fusion 360 (`Offset Crank Arm.f3d`)
+- Fusion 360 (`Offset Crank Arm_.ipt`)
+- STEP (`Offset Crank Arm_.step`)
+- STL (`Offset Crank Arm.stl`)
+- DWG (`Offset Crank Arm_.dwg`)
+
+Download these files below
+
+[Download Offset Crank Arm.zip](./Offset%20Crank%20Arm.zip)
 
 
+## Manufacturing Considerations
+Most suitable processes:
+- CNC milling from aluminum or steel plate (3-axis with good fillet access)
+- Casting (steel, ductile iron, aluminum) + light machining
+- 3D printing (metal DMLS / polymer SLS) for prototypes
+- Forging possible for high-volume steel production
 
+Recommended materials (depending on load):
+- 7075-T6 or 6061-T6 aluminum
+- C45 / 1045 steel
+- Ductile iron (GGG40)
 
+## Applications
+Typical real-world uses include:
+- Motorcycle / bicycle brake & gear shift linkages
+- Agricultural equipment control levers
+- Industrial valve / damper actuators
+- Robotics joint actuation arms
+- Automotive throttle & clutch linkages
+- Exercise equipment pivot arms
+
+ 
