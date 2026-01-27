@@ -149,19 +149,18 @@ Model created directly from the provided dimensional specifications (module, too
 
 ## Models
 
-![Drawing View](P0.jpeg)
-![Drawing View](P1.png)
-![Drawing View](P2.png)
+![Drawing View](G1.png)
+![Drawing View](G2.png)
 
 ---
 
 ## CAD Downloads
 
-- Fusion 360 (`Flanged Elbow.f3d`)
-- Fusion 360 (`Flanged Elbow_.ipt`)
-- STEP (`Flanged Elbow_.step`)
-- STL (`Flanged Elbow.stl`)
-- DWG (`Flanged Elbow_.dwg`)
+- Fusion 360 (`Compound Spur Gear.f3d`)
+- Fusion 360 (`Compound Spur Gear_.ipt`)
+- STEP (`Compound Spur Gear_.step`)
+- STL (`Compound Spur Gear.stl`)
+- DWG (`Compound Spur Gear_.dwg`)
 
 Download these files below
 
