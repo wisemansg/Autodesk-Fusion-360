@@ -40,9 +40,7 @@ Model was created based on the following 2D documentation:
 
 ---
 
-## Renders
-> _(Add renders into the `renders/` folder for display)_
-
+## Models
 
 ![Drawing View](P0.jpeg)
 ![Drawing View](P1.png)
@@ -51,14 +49,16 @@ Model was created based on the following 2D documentation:
 ---
 
 ## CAD Downloads
-> _(Place files inside the `cad/` folder for download)_
+
 - Fusion 360 (`Flanged Elbow.f3d`)
 - Fusion 360 (`Flanged Elbow_.ipt`)
 - STEP (`Flanged Elbow_.step`)
 - STL (`Flanged Elbow.stl`)
 - DWG (`Flanged Elbow_.dwg`)
 
-import requests, zipfile, os; f="Flanged Elbow.zip"; t="temp"; os.makedirs(t, exist_ok=True); [open(os.path.join(t,x['name']),'wb').write(requests.get(x['download_url']).content) for x in requests.get("https://api.github.com/repos/username/repo/contents/foldername").json() if x['type']=='file']; zipfile.ZipFile(f,'w').write(t); import shutil; shutil.make_archive(f.replace(".zip",""), 'zip', t); shutil.rmtree(t)
+Download these files below
+
+[Download Flanged Elbow.zip](./Flanged%20Elbow.zip)
 
 
 ## Manufacturing Considerations
