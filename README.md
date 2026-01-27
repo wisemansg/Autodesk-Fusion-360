@@ -287,4 +287,93 @@ Typical real-world uses include:
 - Automotive throttle & clutch linkages
 - Exercise equipment pivot arms
 
- 
+---
+ # Yoke / Clevis Fork with Offset Arm — Fusion 360 CAD Model
+
+## Overview
+This Fusion 360 model represents a **yoke-style clevis fork** (also called a clevis bracket, forked end, or yoke connector) with an integrated offset lever arm.  
+The component is commonly used in mechanical linkages, control systems, actuators, and hydraulic/pneumatic cylinder connections where a forked end must attach to a clevis pin while transmitting motion or force at an angle.
+
+## Objective
+Reproduce the geometry from the provided orthographic and isometric sketch with high dimensional fidelity using only basic sketching tools, extrusions, mirrors, fillets, and offset operations — suitable as an educational CAD exercise or functional prototype part.
+
+## Design Specifications
+All dimensions in **millimeters (mm)**
+
+| Feature                          | Dimension              | Notes / Location                          |
+|----------------------------------|------------------------|--------------------------------------------|
+| Fork (clevis) width (inside)     | 10 mm                  | Gap between fork arms                      |
+| Fork arm thickness               | 10 mm                  | Each prong                                 |
+| Fork outer diameter (boss)       | Ø50 mm                 | Main cylindrical body at fork end          |
+| Fork through bore                | Ø20 mm                 | Central hole through cylindrical boss      |
+| Fork pin hole diameter           | Ø10 mm                 | Holes in both fork arms                    |
+| Fork arm length (from center)    | ~40 mm                 | Approximate from main axis                 |
+| Main cylinder diameter           | Ø30 mm                 | Central tubular section                    |
+| Offset arm length (center-to-center) | 50 mm              | From main Ø30 axis to small Ø10 hole       |
+| Offset arm angle                 | 135°                   | Arc angle of the curved lever              |
+| Curved arm outer radius          | R (implied ~58–60)     | Derived from 135° and 50 mm centers        |
+| Small end boss diameter          | Ø10 mm (hole)          | End of lever arm                           |
+| Fillet — fork root               | R25 / R30              | Two different radii at fork junction       |
+| Fillet — small end transition    | R7.5 mm                | At Ø10 hole area                           |
+| Fillet — arm curve relief        | R8 mm                  | Inner relief on curved section             |
+| Overall length (approx.)         | ~75–80 mm              | End-to-end along main axis + arm           |
+
+## Tools & Commands Demonstrated
+- Sketch → Circle, Line, Arc (center + angle), Slot (rectangular or rounded)
+- Constraints → Tangent, Coincident, Symmetric, Dimension
+- Mirror (for symmetrical fork arms)
+- Extrude (normal + offset plane)
+- Hole (simple & counterbore if needed)
+- Fillet (multiple radii: R7.5, R8, R25, R30)
+- Revolve (possible for main Ø30 tube — optional)
+
+   ## Models
+
+![Drawing View](CL0.jpeg)
+![Drawing View](CL1.png)
+![Drawing View](CL2.png)
+![Drawing View](CL3.png)
+
+---
+
+## CAD Downloads
+
+- Fusion 360 (`Clevis Fork.f3d`)
+- Fusion 360 (`Clevis Fork_.ipt`)
+- STEP (`Clevis Fork_.step`)
+- STL (`Clevis Fork.stl`)
+- DWG (`Clevis Fork_.dwg`)
+
+Download these files below
+
+[Download Clevis Fork.zip](./Clevis%20Fork.zip)
+
+
+## Design Features
+- Symmetrical fork (clevis) with through pin hole Ø10 mm
+- Central cylindrical body Ø30 mm × ~50 mm long
+- 135° offset curved lever arm ending in Ø10 mm hole
+- Smooth fillet transitions at all junctions → good fatigue behavior
+- Constant 10 mm thickness on fork arms and lever web
+- No draft angles → suitable for machining or 3D printing
+
+## Manufacturing Considerations
+Most suitable processes:
+- CNC milling (3- or 4-axis) from aluminum or steel block
+- 3-axis machining with ball end mills for fillets
+- Metal 3D printing (DMLS / SLM) for prototypes
+- Casting (aluminum or ductile iron) + finish machining
+
+Common materials:
+- 6061-T6 or 7075-T6 aluminum
+- 1045 / C45 steel
+- Stainless steel 304 / 316 (corrosion resistance)
+
+## Typical Applications
+- Hydraulic / pneumatic cylinder rod ends
+- Control linkages (throttle, brake, steering)
+- Agricultural machinery pivot points
+- Robotics arm joints & actuators
+- Automotive & motorcycle suspension links
+- Exercise equipment adjustment mechanisms
+
