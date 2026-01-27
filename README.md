@@ -247,7 +247,7 @@ All dimensions in **millimeters (mm)**
 
  ## Models
 
-![Drawing View](C0.png)
+![Drawing View](C0.jpeg)
 ![Drawing View](C1.png)
 ![Drawing View](C2.png)
 ![Drawing View](C3.png)
