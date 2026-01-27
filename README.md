@@ -291,11 +291,10 @@ Typical real-world uses include:
  # Yoke / Clevis Fork with Offset Arm — Fusion 360 CAD Model
 
 ## Overview
-This Fusion 360 model represents a **yoke-style clevis fork** (also called a clevis bracket, forked end, or yoke connector) with an integrated offset lever arm.  
-The component is commonly used in mechanical linkages, control systems, actuators, and hydraulic/pneumatic cylinder connections where a forked end must attach to a clevis pin while transmitting motion or force at an angle.
+This Fusion 360 model represents a **yoke-style clevis fork** (also called a clevis bracket, forked end, or yoke connector) with an integrated offset lever arm. The component is commonly used in mechanical linkages, control systems, actuators, and hydraulic/pneumatic cylinder connections where a forked end must attach to a clevis pin while transmitting motion or force at an angle.
 
 ## Objective
-Reproduce the geometry from the provided orthographic and isometric sketch with high dimensional fidelity using only basic sketching tools, extrusions, mirrors, fillets, and offset operations — suitable as an educational CAD exercise or functional prototype part.
+Reproduce the geometry from the provided orthographic and isometric sketch with high dimensional fidelity using sketching tools, extrusions, mirrors, fillets, and offset operations, suitable as an educational CAD exercise or functional prototype part.
 
 ## Design Specifications
 All dimensions in **millimeters (mm)**
