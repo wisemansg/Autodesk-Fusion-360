@@ -42,9 +42,9 @@ Model was created based on the following 2D documentation:
 
 ## Models
 
-![Drawing View](P0.jpeg)
-![Drawing View](P1.png)
-![Drawing View](P2.png)
+![Drawing View](./fusionassets/P0.jpeg)
+![Drawing View](./fusionassets/P1.png)
+![Drawing View](./fusionassets/P2.png)
 
 ---
 
@@ -58,7 +58,7 @@ Model was created based on the following 2D documentation:
 
 Download these files below
 
-[Download Flanged Elbow.zip](./Flanged%20Elbow.zip)
+[Download Flanged Elbow.zip](./fusionassets/Flanged%20Elbow.zip)
 
 
 ## Manufacturing Considerations
@@ -149,8 +149,8 @@ Model created directly from the provided dimensional specifications (module, too
 
 ## Models
 
-![Drawing View](G1.png)
-![Drawing View](G2.png)
+![Drawing View](./fusionassets/G1.png)
+![Drawing View](./fusionassets/G2.png)
 
 ---
 
@@ -164,7 +164,7 @@ Model created directly from the provided dimensional specifications (module, too
 
 Download these files below
 
-[Download Compound Spur Gear.zip](./Compound%20Spur%20Gear.zip)
+[Download Compound Spur Gear.zip](./fusionassets/Compound%20Spur%20Gear.zip)
 
 
 ## Manufacturing Considerations
@@ -246,10 +246,10 @@ All dimensions in **millimeters (mm)**
 
  ## Models
 
-![Drawing View](C0.jpeg)
-![Drawing View](C1.png)
-![Drawing View](C2.png)
-![Drawing View](C3.png)
+![Drawing View](./fusionassets/C0.jpeg)
+![Drawing View](./fusionassets/C1.png)
+![Drawing View](./fusionassets/C2.png)
+![Drawing View](./fusionassets/C3.png)
 
 ---
 
@@ -263,7 +263,7 @@ All dimensions in **millimeters (mm)**
 
 Download these files below
 
-[Download Offset Crank Arm.zip](./Offset%20Crank%20Arm.zip)
+[Download Offset Crank Arm.zip](./fusionassets/Offset%20Crank%20Arm.zip)
 
 
 ## Manufacturing Considerations
@@ -326,12 +326,12 @@ All dimensions in **millimeters (mm)**
 - Fillet (multiple radii: R7.5, R8, R25, R30)
 - Revolve (possible for main Ø30 tube — optional)
 
-   ## Models
+  ## Models
 
-![Drawing View](CL0.jpeg)
-![Drawing View](CL1.png)
-![Drawing View](CL2.png)
-![Drawing View](CL3.png)
+![Drawing View](./fusionassets/CL0.jpeg)
+![Drawing View](./fusionassets/CL1.png)
+![Drawing View](./fusionassets/CL2.png)
+![Drawing View](./fusionassets/CL3.png)
 
 ---
 
@@ -345,7 +345,7 @@ All dimensions in **millimeters (mm)**
 
 Download these files below
 
-[Download Clevis Fork.zip](./Clevis%20Fork.zip)
+[Download Clevis Fork.zip](./fusionassets/Clevis%20Fork.zip)
 
 
 ## Design Features
@@ -445,13 +445,13 @@ All dimensions in **millimeters (mm)**
 - Thick washer doubles as protective spacer and load distributor
 - Hex socket cap head for clean appearance and high torque capability
 
-   ## Models
+  ## Models
 
-![Drawing View](T0.jpeg)
-![Drawing View](T00.jpeg)
-![Drawing View](T1.png)
-![Drawing View](T2.png)
-![Drawing View](T3.png)
+![Drawing View](./fusionassets/T0.jpeg)
+![Drawing View](./fusionassets/T00.jpeg)
+![Drawing View](./fusionassets/T1.png)
+![Drawing View](./fusionassets/T2.png)
+![Drawing View](./fusionassets/T3.png)
 
 ---
 
@@ -465,7 +465,7 @@ All dimensions in **millimeters (mm)**
 
 Download these files below
 
-[Download L-Bracket.zip](./L-Bracket.zip)
+[Download L-Bracket.zip](./fusionassets/L-Bracket.zip)
 
 ## Manufacturing Considerations
 Recommended processes:
